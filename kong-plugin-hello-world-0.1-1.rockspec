@@ -2,13 +2,13 @@ package = "kong-plugin-hello-world"
 version = "0.1-1"
 supported_platforms = {"linux", "macosx"}
 source = {
-  url = "git://github.com/brndmg/kong-plugin-hello-world",
-  tag = "v0.1-1"
+  url = "https://github.com/sh1su1/kong-plugin-hello-world.git",
+  tag = "master"
 }
 description = {
   summary = "The Hello World Plugin",
   license = "Apache 2.0",
-  homepage = "https://github.com/brndmg/kong-plugin-hello-world",
+  homepage = "https://github.com/sh1su1/kong-plugin-hello-world.git",
   detailed = [[
       An example Hello World plugin. Bootstrap your plugin development.
   ]],
