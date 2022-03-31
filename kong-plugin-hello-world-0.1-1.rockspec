@@ -2,7 +2,7 @@ package = "kong-plugin-hello-world"
 version = "0.1-1"
 supported_platforms = {"linux", "macosx"}
 source = {
-  url = "https://github.com/sh1su1/kong-plugin-hello-world.git",
+  url = "git+https://github.com/sh1su1/kong-plugin-hello-world.git",
   tag = "master"
 }
 description = {
